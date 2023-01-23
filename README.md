@@ -1,1 +1,1 @@
-# NLP-Frontend
+# Frontend via Streamlit für NLP-Projekt
