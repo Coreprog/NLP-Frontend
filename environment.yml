@@ -10,7 +10,6 @@ dependencies:
   - sentencepiece
   - plotly
   - scipy
-  - sumy
   - nltk
   - spacy
 prefix: /opt/anaconda3/envs/frotend-env
