@@ -2,7 +2,7 @@ pandas
 transformers
 streamlit
 matplotlib
-pytorch
+torch
 sentencepiece
 plotly
 scipy
