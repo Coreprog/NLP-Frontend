@@ -1,0 +1,16 @@
+name: frotend
+channels:
+  - defaults
+dependencies:
+  - pandas
+  - transformers
+  - streamlit
+  - matplotlib
+  - pytorch
+  - sentencepiece
+  - plotly
+  - scipy
+  - sumy
+  - nltk
+  - spacy
+prefix: /opt/anaconda3/envs/frotend-env
