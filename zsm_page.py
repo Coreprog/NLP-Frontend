@@ -9,7 +9,7 @@ def show_nlp_zsmf():
     NLP Zusammenfasser
     """
     )
-    colum11, colum22= st.columns([10,1])
+    colum11, colum22= st.columns([8,1])
     with colum11:
         text = st.text_area("Text für Zusammenfassung:",key= "SUM")
 
