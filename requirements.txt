@@ -9,3 +9,4 @@ scipy
 nltk
 spacy
 sumy
+streamlit-toggle-switch
