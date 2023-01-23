@@ -1,4 +1,4 @@
-name: frotend
+name: frontend
 channels:
   - defaults
 dependencies:
