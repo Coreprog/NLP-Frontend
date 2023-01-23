@@ -12,4 +12,4 @@ dependencies:
   - scipy
   - nltk
   - spacy
-prefix: /opt/anaconda3/envs/frotend-env
+prefix: /opt/anaconda3/envs/frotend
