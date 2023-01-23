@@ -1,6 +1,6 @@
 # app/Dockerfile
 
-FROM python:3.9-slim
+FROM continuumio/miniconda3
 
 WORKDIR /app
 
@@ -11,10 +11,14 @@ RUN apt-get update && apt-get install -y \
     git \
     && rm -rf /var/lib/apt/lists/*
 
-RUN git clone https://github.com/NICFRU/NLP.git .
+RUN git clone https://github.com/Coreprog/NLP-Frontend.git .
 
-RUN pip3 install -r requirements.txt && \
-    python -m spacy download de_core_news_lg
+RUN conda env create -f environment.yml
+SHELL ["conda", "run", "-n", "frontend", "/bin/bash", "-c"]
+RUN python -m spacy download de_core_news_lg
+
+RUN conda install -c conda-forge sumy
+
 
 EXPOSE 8501
 
