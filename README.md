@@ -1,6 +1,6 @@
 # Frontend fürs NLP-Projekt welches via Streamlit betrieben wird
 
-Ordner mit Dockerfile downloaden oder einfach nur das Dockerfile downloaden. ** Bitt sicherstellen das Docker auf dem Endgerät installiert ist.** 
+Ordner mit Dockerfile downloaden oder einfach nur das Dockerfile downloaden. **Bitte sicherstellen das Docker auf dem Endgerät installiert ist.** 
 
 Mit dem folgenden Befehl wird dann das Docker Image erstellt:
 ``` Docker
