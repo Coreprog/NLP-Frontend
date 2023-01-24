@@ -17,3 +17,4 @@ def select_page():
     
     st.subheader("Meme of the project:")
     st.image("brace-yourself-nlp.jpg")
+    st.caption("https://makeameme.org/meme/brace-yourself-nlp")

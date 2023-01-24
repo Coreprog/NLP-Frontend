@@ -18,6 +18,7 @@ def show_nlp_zsmf():
 
     if text != "" and num != 0:
         sum = summarize_text(text,num)
+        st.subheader("Ihre Zusammenfassung:")
         st.write(sum)
     else:
         pass
