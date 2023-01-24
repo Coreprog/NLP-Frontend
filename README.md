@@ -20,4 +20,4 @@ http://localhost:8501
 
 ## Zu beachten:
 
-Beim erstmaligen Aufruf des Frontend und erstmaligen Ausführung der Modelle, müssen diese erst vom Huggigface Hub runtergeladen werden. Dies könnte je nach Internet Verbindung seine Zeit brauchen. Sobald diese jedoch einmal runter geladen sind, können diese ohne Probleme 
+Beim erstmaligen Aufruf des Frontend und erstmaligen Ausführung der Modelle, müssen diese erst vom Huggigface Hub runtergeladen werden. Dies könnte je nach Internet Verbindung seine Zeit brauchen. Sobald diese jedoch einmal runter geladen sind, können diese ohne Probleme genutzt werden.
