@@ -146,7 +146,7 @@ def show_predict_page():
         if hatespeechbox == True:
             st.subheader(
             """
-             Hate Speech Erkennung mit dem Hate-speech-CNERG/dehatebert-mono-german Modell:
+            Multi Text Hate Speech Erkennung mit dem Hate-speech-CNERG/dehatebert-mono-german Modell:
             """
             )
             with st.spinner('Hate Speech Erkennung wird durchgeführt...'):
@@ -157,7 +157,7 @@ def show_predict_page():
         if sentimentbox == True:
             st.subheader(
             """
-             Multi Text Sentiment Analyse mit dem cardiffnlp/twitter-xlm-roberta-base-sentiment Modell
+             Multi Text Sentiment Analyse mit dem cardiffnlp/twitter-xlm-roberta-base-sentiment Modell:
             """
             )
             with st.spinner('Sentiment Analyse wird durchgeführt...'):
