@@ -67,9 +67,9 @@ def show_predict_page():
                 st.plotly_chart(zeroshot_plot)
             
             elif pipe == "Spacy":
-                st.write(
+                st.subheader(
                 """
-                ## Multi Text Zero Shot Klassifizierung mit dem de_core_news_lg Modell:
+                Zero Shot Klassifizierung mit dem de_core_news_lg Modell:
                 """
                 )
 
@@ -139,7 +139,7 @@ def show_predict_page():
                 )
 
                 with st.spinner('Zero Shot Klassifizierung wird durchgeführt...'):
-                    fig_v2 = multi_spacy_model(sentlist)
+                    fig_v2  = multi_spacy_model(sentlist)
 
                 st.plotly_chart(fig_v2)
 
