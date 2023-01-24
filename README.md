@@ -1,16 +1,23 @@
-# Frontend via Streamlit für NLP-Projekt
+# Frontend fürs NLP-Projekt welches via Streamlit betrieben wird
 
-Download the Dockerfile and perform:
+Ordner mit Dockerfile downloaden oder einfach nur das Dockerfile downloaden. **Bitte sicherstellen das Docker auf dem Endgerät installiert ist.** 
+
+Mit dem folgenden Befehl wird dann das Docker Image erstellt:
+``` Docker
 docker build -t frontendnlp .
+```
 
-If the Image is created, run:
+Wenn das Image erstellt ist, wird das Image mit folgendem Befehl ausgeführt:
+``` Docker
 docker run -p 8501:8501 frontendnlp
+```
 
-then open:
+Nachdem das Image nun läuft, kann im Browser folgender localhost aufgerufen werden:
+```
 http://localhost:8501
+```
 
 
+## Zu beachten:
 
-Attention:
-
-If you first use the different models. They must be downloaded from the huggingface database. SO it will just take it little bit more time by the first usage.
+Beim erstmaligen Aufruf des Frontend und erstmaligen Ausführung der Modelle, müssen diese erst vom Huggigface Hub runtergeladen werden. Dies könnte je nach Internet Verbindung seine Zeit brauchen. Sobald diese jedoch einmal runter geladen sind, können diese ohne Probleme 
